@@ -1,0 +1,35 @@
+.cardContainer {
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: var(--dark-blue);
+}
+
+.flag {
+  width: 100%;
+  height: 10.5rem;
+  position: relative;
+}
+
+.info {
+  padding: 1rem 1.5rem 2rem;
+}
+
+.info .countryName {
+  padding: 0.8rem 0;
+}
+
+.info p {
+  font-size: 0.9rem;
+}
+
+.info span {
+  color: var(--gray);
+}
+
+@media only screen and (max-width: 600px) {
+  .flag {
+    width: 100%;
+    height: 50vw;
+    position: relative;
+  }
+}

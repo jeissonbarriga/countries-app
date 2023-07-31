@@ -1,0 +1,100 @@
+
+.pageBody {
+  padding: 1.5rem 4.5rem;
+}
+
+.content {
+  display: flex;
+  padding: 1.5rem 0;
+  justify-content: space-between;
+}
+
+.content .flag {
+  width: 45%;
+  height: 23vw;
+  position: relative;
+}
+
+.content .details {
+  display: flex;
+  gap: 7rem;
+  padding-right: 2rem;
+}
+
+.info {
+  width: 45%;
+}
+
+.info .countryName {
+  margin: 1.5rem 0 1rem 0;
+}
+
+.info p {
+  margin: 0.5rem 0;
+}
+
+.info span {
+  color: var(--gray);
+}
+
+.info .borderCountries {
+  margin-top: 3rem;
+}
+
+.info .borderCountries span {
+  margin-right: 0.5rem;
+  border:none;
+  color: var(--gray);
+  font-size:15px;
+  border-radius: 5px;
+  padding: 0 1.5rem;
+  background-color: var(--dark-blue);
+}
+
+.backLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+  border:none;
+  color: var(--white);
+  font-size:15px;
+  border-radius: 5px;
+  padding: 0 1.5rem;
+  height:50px;
+  width:7rem;
+  background-color: var(--dark-blue);
+}
+
+.backLink span {
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .pageBody {
+    padding: 1.5rem 2rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    justify-content: baseline;
+  }
+
+  .content .flag {
+    width: 100%;
+    height: 50vw;
+    position: relative;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .info .details {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+  }
+}
